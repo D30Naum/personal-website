@@ -1,0 +1,96 @@
+* {
+  width: 100%;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+.expertise {
+  height:60vh; 
+  width:100%;
+}
+
+#skills {
+  background-image: url("bgg.png");
+  padding-bottom: 200px;
+}
+
+#skills::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65); /* Black with 50% opacity */
+  z-index: 1;
+}
+
+#skills > * {
+  position: relative;
+  z-index: 2;
+}
+.expertise h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: calc(12px + 3vw);
+  color: white;
+}
+
+.card-group {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 2rem;
+}
+
+.front-end-development,
+.back-end-development,
+.data-analysis {
+  display: flex;
+  flex-direction: column;
+  border: 1px inset rgb(170, 168, 168);
+  padding: 2rem;
+  border-radius: 5%;
+}
+
+.front-end-development_header,
+.back-end-development_header,
+.data-analysis_header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  font-size: 35px;
+  gap: 1rem;
+}
+
+.front-end-development_header,
+.back-end-development_header,
+.data-analysis_header img {
+  width: 50px;
+  height: auto;
+}
+
+.data-analysis_header img {
+  padding-bottom: 42px;
+}
+
+.text {
+  font-size: 22px;
+}
+
+.slide-in-bck-left {
+	-webkit-animation: slide-in-bck-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@media (max-width: 700px) {
+  
+}

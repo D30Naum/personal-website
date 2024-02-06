@@ -1,0 +1,112 @@
+.website__topnav {
+  display: flex;
+  position: fixed;
+  background-color: none;
+  padding: 0rem 6rem;
+  top: 0;
+  background-color: black;
+  z-index: 5;
+}
+
+.website__topnav-links {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem 0rem;
+}
+
+.website__topnav-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.website__topnav-links_container p,
+.website__topnav-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.website__topnav-links_container a {
+  text-decoration: underline 0.1em rgb(255, 253, 253);
+  text-underline-offset: 0.4em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+.website__topnav-links_container a:hover {
+  text-decoration-color: rgb(255, 255, 255);
+  text-underline-offset: 0.2em;
+}
+
+.website__topnav-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #FF4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.website__topnav-menu {
+  width: 10%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: none;
+  position: fixed;
+  left: 0;
+}
+
+.website__topnav-menu_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.website__topnav-menu_container p {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .website__topnav-links_container {
+      display: none;
+  }
+
+  .website__topnav-menu {
+      display: flex;
+      align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .website__topnav {
+      background-color: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .website__topnav {
+      padding: 2rem 0rem;
+  }
+  .website__topnav-menu_container {
+      top: 0px;
+  }
+}

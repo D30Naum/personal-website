@@ -1,0 +1,41 @@
+[
+    {
+        "text": "Introduction to Data Science Preceptor at Macalester College",
+        "date": "September 2023 - December 2023",
+        "category": {
+            "tag": "R Studio",
+            "color": "#030368"
+        },
+        "link": {
+            "url":
+                "https://www.linkedin.com/in/devi-naum/",
+            "text": "Read more about my position"
+        }
+    },
+    {
+        "text": "Founding Executive Board Member of NSLS at Macalester College",
+        "date": "January 2023 - Present",
+        "category": {
+            "tag": "Communication and Teamwork",
+            "color": "#030368"
+        },
+        "link": {
+            "url":
+                "https://www.linkedin.com/feed/update/urn:li:activity:7095383616737673217/",
+            "text": "Read more about my experience"
+        }
+    },
+    {
+        "text": "Software Development Intern at Ritech AG",
+        "date": "May 2023 - August 2023",
+        "category": {
+            "tag": "React and .NET",
+            "color": "#030368"
+        },
+        "link": {
+            "url":
+                "https://www.linkedin.com/feed/update/urn:li:activity:7095383616737673217/",
+            "text": "Read more about my experience"
+        }
+    }
+]
